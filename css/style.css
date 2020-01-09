@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background-color: #EEEEEE;
+}
+
+section {
+  position: relative;
+  margin: auto;
+  max-width: 960px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00227b;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-weight: 100;
+  display: block;
+  background-color: #00227b;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+li a:hover {
+  background-color: #3f51b5;
+  color: white;
+}
+
+header.header_other {
+  margin-left: auto;
+  margin-right: auto;
+  background: #3f50b5;
+  min-height: 70px;
+}
+
+header {
+  margin-left: auto;
+  margin-right: auto;
+  background: #3f50b5;
+  min-height: 1000px;
+}
+
+h1.h1_other {
+  padding: 30px 20px 30px;
+  margin: auto;
+  max-width: 900px;
+  font-weight: 300;
+  font-size: 48px;
+  color: white;
+}
+
+h1#h1_main {
+  padding: 320px 10px;
+  margin: auto;
+  max-width: 600px;
+  font-size: 100px;
+  text-align: center;
+  color: black;
+}
+
+.parallax {
+  background-image: url("../images/Wallpaper.png");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+article {
+  background-color: white;
+  padding: 5px 30px 30px;
+  margin: 30px;
+  font-weight: 100;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 28px;
+}
+
+h3 {
+  padding: 0;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+p {
+  line-height: 1.4;
+}
+
+button {
+  padding: 12px 24px;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  background-color: #00227b;
+  color: #ecf0f1;
+  transition: background-color .3s;
+}
+
+button:hover {
+  background-color: #3f51b5;
+  cursor: pointer
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  margin: 30px;
+  border: 2px solid #ddd;
+}
+
+th, td {
+  text-align: center;
+  padding: 16px;
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: white
+}
+
+p#creator_name {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+p#hello_line {
+  font-size: 25px;
+}
+
+ul#social_media {
+  background-color: white;
+}
+
+a#github_link {
+  background-color: white;
+}
+
+td.bold_td {
+  font-weight: bold;
+}
