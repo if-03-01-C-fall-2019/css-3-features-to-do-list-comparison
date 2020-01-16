@@ -12,7 +12,7 @@ section {
   max-width: 960px;
 }
 
-ul {
+ul.menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -20,11 +20,11 @@ ul {
   background-color: #00227b;
 }
 
-li {
+li.menu_button {
   float: left;
 }
 
-li a {
+li.menu_button a {
   font-weight: 100;
   display: block;
   background-color: #00227b;
@@ -35,7 +35,7 @@ li a {
   transition: background-color .3s;
 }
 
-li a:hover {
+li.menu_button a:hover {
   background-color: #3f51b5;
   color: white;
 }
@@ -70,10 +70,7 @@ h1#h1_main {
   font-size: 100px;
   text-align: center;
   color: black;
-<<<<<<< HEAD
   position: relative;
-=======
->>>>>>> 6cc4431725fefe8f6fa2b9fcc6eae9644ac42a8b
 }
 
 .parallax {
@@ -164,8 +161,12 @@ ul#social_media {
   background-color: white;
 }
 
-a#github_link {
+a.sozial_media_icon {
   background-color: white;
+}
+a.sozial_media_icon:hover, .sozial_media_icon:focus {
+  cursor: pointer;
+  transform: scale(1.10);
 }
 
 td.bold_td {
