@@ -157,6 +157,10 @@ p#hello_line {
   font-size: 25px;
 }
 
+ul#social_media {
+  background-color: white;
+}
+
 a.sozial_media_icon {
   background-color: white;
 }
@@ -178,7 +182,6 @@ li#social_media {
 li#social_media a {
   font-weight: 100;
   display: block;
-  background-color: #00227b;
   color: white;
   text-align: center;
   padding: 14px 16px;
