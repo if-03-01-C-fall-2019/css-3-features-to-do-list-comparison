@@ -157,16 +157,33 @@ p#hello_line {
   font-size: 25px;
 }
 
-ul#social_media {
-  background-color: white;
-}
-
 a.sozial_media_icon {
   background-color: white;
 }
 a.sozial_media_icon:hover, .sozial_media_icon:focus {
   cursor: pointer;
   transform: scale(1.10);
+}
+ul#social_media {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li#social_media {
+  float: left;
+}
+
+li#social_media a {
+  font-weight: 100;
+  display: block;
+  background-color: #00227b;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
 }
 
 td.bold_td {
