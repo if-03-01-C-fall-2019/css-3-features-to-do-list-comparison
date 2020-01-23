@@ -153,12 +153,12 @@ tr:nth-child(even) {
   background-color: white
 }
 
-p#creator_name {
+p.creator_name {
   font-weight: bold;
   font-size: 25px;
 }
 
-p#hello_line {
+p.hello_line {
   font-size: 25px;
 }
 
@@ -166,7 +166,7 @@ td.bold_td {
   font-weight: bold;
 }
 
-#portrait {
+.portrait {
   float: right;
   padding-left: 20px;
   padding-bottom: 20px;
