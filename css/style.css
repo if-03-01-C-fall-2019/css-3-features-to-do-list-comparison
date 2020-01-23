@@ -172,15 +172,15 @@ td.bold_td {
   padding-bottom: 20px;
 }
 
-.social_media_icon {
+a .social_media_icon {
   padding: 5px;
 }
 
-.social_media_icon:hover, .social_media_icon:focus {
+a .social_media_icon:hover, .social_media_icon:focus {
   transform: scale(1.5);
   transition: all .3s;
 }
 
-.social_media_icon:active {
+a .social_media_icon:active {
   transform: scale(1.20);
 }
