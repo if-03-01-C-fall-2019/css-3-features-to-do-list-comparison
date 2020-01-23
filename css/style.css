@@ -22,6 +22,7 @@ ul.menu {
   background-color: #00227b;
 }
 
+
 li.menu_button {
   float: left;
 }
@@ -160,41 +161,28 @@ p#hello_line {
   font-size: 25px;
 }
 
-ul#social_media {
-  background-color: white;
-}
 
-a.sozial_media_icon {
-  background-color: white;
-}
-a.sozial_media_icon:hover, .sozial_media_icon:focus {
-  cursor: pointer;
-  transform: scale(1.10);
-}
-ul#social_media {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
 
-li#social_media {
-  float: left;
-}
 
-li#social_media a {
-  font-weight: 100;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  transition: background-color .3s;
-}
 
 td.bold_td {
   font-weight: bold;
 }
 #portrait {
   float: right;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.social_media_icon {
+  padding: 5px;
+}
+
+.social_media_icon:hover, .social_media_icon:focus {
+  transform: scale(1.5);
+  transition: all .3s;
+}
+.social_media_icon:active {
+
+  transform: scale(1.20);
 }
