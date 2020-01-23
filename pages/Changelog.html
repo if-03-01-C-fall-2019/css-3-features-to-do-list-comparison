@@ -22,22 +22,84 @@
   </header>
   <section>
     <article>
-        <details class="default square">
-          <summary><span class="open">Animations</span><span class="close">Animations</span></summary>
-          <p>If your browser supports this element, it should allow you to expand and collapse these details.</p>
-        </details>
-        <details class="default square">
-          <summary><span class="open">Shadows</span><span class="close">Shadows</span></summary>
-          <p>If your browser supports this element, it should allow you to expand and collapse these details.</p>
-        </details>
-        <details class="default square">
-          <summary><span class="open">Linear and/or radial gradients</span><span class="close">Linear and/or radial gradients</span></summary>
-          <p>If your browser supports this element, it should allow you to expand and collapse these details.</p>
-        </details>
-        <details class="default square">
-          <summary><span class="open">Rounded corners</span><span class="close">Rounded corners</span></summary>
-          <p>If your browser supports this element, it should allow you to expand and collapse these details.</p>
-        </details>
+      <details class="default square">
+        <summary><span class="open">Animations</span><span class="close">Animations</span></summary>
+        <div class="grid-container">
+          <div class="item1">
+            <p>On this page we have an  rotation  animation at arrow of a dropdown box. When you open the page, there is another wipe animation at the dropdown box.</p>
+          </div>
+          <div class="item2">
+            <code class="codebox">transform: rotate(0.1deg);
+              transition: all 0.5s;
+            </code>
+          </div>
+        </div>
+
+        <div class="grid-container">
+          <div class="item1">
+            <p>We have added a slight animation to the navigation bar when you hover over it.</p>
+          </div>
+          <div class="item2">
+            <code class="codebox">transition: background-color .3s;
+            </code>
+          </div>
+        </div>
+
+        <div class="grid-container">
+          <div class="item1">
+            <p>We have the same effect on each button as on the navigation bar. Among other things we let the button get bigger or smaller. Test it yourself.</p>
+          </div>
+          <div class="item2">
+            <code class="codebox">transition: background-color .3s;
+              transform: scale(1.03);
+              transform: scale(0.98);
+            </code>
+          </div>
+        </div>
+        <button><span>This is a test button</span></button>
+
+      </details>
+      <details class="default square">
+        <summary><span class="open">Shadows</span><span class="close">Shadows</span></summary>
+        <div class="grid-container">
+          <div class="item1">
+            <p>We used a shadow on each button. Because our website design is very flat we only used it for the Butttons.</p>
+          </div>
+          <div class="item2">
+            <code class="codebox">box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+              box-shadow: 0px 15px 25px -5px rgba(0, 0, 0, .6);
+              box-shadow: 0px 4px 8px rgba(0, 0, 0, .6);
+            </code>
+          </div>
+        </div>
+        <button><span>This is a test button</span></button>
+      </details>
+
+
+      <details class="default square">
+        <summary><span class="open">Linear and/or radial gradients</span><span class="close">Linear and/or radial gradients</span></summary>
+        <p>We have decided that we won't use gradients because it just doesn't fit our website since it was designed flat. We hope that this will be tolerated.</p>
+      </details>
+      <details class="default square">
+        <summary><span class="open">Rounded corners</span><span class="close">Rounded corners</span></summary>
+        <div class="grid-container">
+          <div class="item1">
+            <p>For the buttons we have simply a slight rounding at the corners.</p>
+          </div>
+          <div class="item2">
+            <code class="codebox">border-radius: 2px;
+            </code>
+          </div>
+        </div>
+        <button><span>This is a test button</span></button>
+      </details>
+
+      <details class="default square">
+        <summary><span class="open">Other changes</span><span class="close">Other changes</span></summary>
+        <p>For the changelog we used the css gird system to adjust the distance between the text and the codebox.</p>
+      </details>
+
+
     </article>
   </section>
 </body>
