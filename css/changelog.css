@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background-color: #EEEEEE;
+}
+
+section {
+  position: relative;
+  margin: auto;
+  max-width: 960px;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00227b;
+}
+
+li.menu_button {
+  float: left;
+}
+
+li.menu_button a {
+  font-weight: 100;
+  display: block;
+  background-color: #00227b;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+li.menu_button a:hover {
+  background-color: #3f51b5;
+  color: white;
+}
+
+header.header_other {
+  margin-left: auto;
+  margin-right: auto;
+  background: #3f50b5;
+  min-height: 70px;
+}
+
+header {
+  margin-left: auto;
+  margin-right: auto;
+  background: #3f50b5;
+  min-height: 1000px;
+}
+
+h1.h1_other {
+  padding: 30px 20px 30px;
+  margin: auto;
+  max-width: 900px;
+  font-weight: 300;
+  font-size: 48px;
+  color: white;
+}
+
+
+
+.parallax {
+  background-image: url("../images/Wallpaper.png");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+article {
+  background-color: white;
+  padding: 5px 30px 30px;
+  margin: 30px;
+  font-weight: 100;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 28px;
+}
+
+h3 {
+  padding: 0;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+p {
+  line-height: 1.4;
+}
+
+button {
+  padding: 12px 24px;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  background-color: #00227b;
+  color: #ecf0f1;
+  transition: background-color .3s;
+}
+
+button:hover, button:focus {
+  background-color: #3f51b5;
+  cursor: pointer;
+  box-shadow: 0px 15px 25px -5px rgba(0, 0, 0, .6);
+  transform: scale(1.03);
+}
+
+button:active {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, .6);
+  transform: scale(0.98);
+}
