@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
+
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -21,7 +23,6 @@ ul.menu {
   overflow: hidden;
   background-color: #00227b;
 }
-
 
 li.menu_button {
   float: left;
@@ -161,13 +162,10 @@ p#hello_line {
   font-size: 25px;
 }
 
-
-
-
-
 td.bold_td {
   font-weight: bold;
 }
+
 #portrait {
   float: right;
   padding-left: 20px;
@@ -182,7 +180,7 @@ td.bold_td {
   transform: scale(1.5);
   transition: all .3s;
 }
-.social_media_icon:active {
 
+.social_media_icon:active {
   transform: scale(1.20);
 }
