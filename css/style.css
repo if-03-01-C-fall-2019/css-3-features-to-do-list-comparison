@@ -192,3 +192,6 @@ li#social_media a {
 td.bold_td {
   font-weight: bold;
 }
+#portrait {
+  float: right;
+}
