@@ -61,6 +61,7 @@ h1.h1_other {
   font-weight: 300;
   font-size: 48px;
   color: white;
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 
 }
 
@@ -103,7 +104,6 @@ button {
   box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
   background-color: #00227b;
   color: #ecf0f1;
-  transition: background-color .3s;
 }
 
 button:hover, button:focus {
@@ -219,4 +219,16 @@ summary:after {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 5px;
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
 }
