@@ -118,6 +118,7 @@ button {
   background-color: #00227b;
   color: #ecf0f1;
   transition: background-color .3s;
+  transition: all 0.5s;
 }
 
 button:hover, button:focus {
@@ -175,6 +176,7 @@ td.bold_td {
 
 .social_media_icon {
   padding: 5px;
+  transition: all 0.5s;
 }
 
 .social_media_icon:hover, .social_media_icon:focus {
